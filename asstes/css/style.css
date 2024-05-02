@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  overflow-x: hidden;
+  line-height: 1.3;
+}
+ /* ============================NavBar start=========================  */
+.nav-icon img {
+  width: 30%;
+}
+
+.nav {
+  padding: 14px 50px;
+  /* background: red; */
+}
+.main__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_icon-cart i {
+  /* padding-left: 35px; */
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav_icon-cart {
+  display: flex;
+  align-items: center;
+}
+
+.addtocard {
+  padding-left: 20px;
+}
+
+.dropedit {
+  /* color: black; */
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* ============================NavBar end=========================  */
+
+/* ============================main start========================= */
+
+.main-area {
+  padding: 50px;
+  /* background-image: linear-gradient(to left, var(--tw-gradient-stops)); */
+  /* --tw-gradient-from: rgb(234 88 12 / .2) var(--tw-gradient-from-position); */
+  background: antiquewhite;
+}
+
+.title-main {
+  position: relative;
+}
+
+.title-main h4 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 90px;
+}
+
+.title-main img {
+  position: absolute;
+  top: -7px;
+  right: 100px;
+  height: 100px;
+  z-index: -1;
+}
+
+.title-main b {
+  color: orange;
+}
+
+.main_img {
+  position: relative;
+}
+
+.fire_icon {
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+  color: red;
+}
+
+.clock-icon {
+  position: absolute;
+  right: 0px;
+  top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  color: #ffffff;
+  background-color: rgb(250 204 21);
+  border-radius: 50px;
+}
+
+.arrow-icon {
+  position: absolute;
+  right: 64px;
+  top: 210px;
+}
+
+
+/* ============================main end========================= */
+
+
+
+/* ============================second main start=========================== */
+.sec_area {
+  padding: 50px;
+}
+
+.coffe_items img {
+  padding: 0px 22px;
+}
+
+.burger_items img {
+  padding: 0px 15px;
+}
+
+.noodles_items img {
+  padding: 0px 15px;
+}
+
+.pizza_items img {
+  padding: 0px 15px;
+}
+
+.coffe_items {
+  background-color: bisque;
+  padding: 50px 81px;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+}
+.burger_items {
+  background-color: bisque;
+  padding: 50px 81px;
+  border-radius: 50px;
+  position: relative;
+}
+.noodles_items {
+  background-color: bisque;
+  padding: 50px 81px;
+  border-radius: 50px;
+  position: relative;
+}
+.pizza_items {
+  background-color: bisque;
+  padding: 50px 81px;
+  border-radius: 50px;
+  position: relative;
+}
+.coffe-detail-1,.coffe-detail-2,.coffe-detail-3{ 
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+  color: #ffffff;
+}
+.control_card {
+  position: relative;
+}
+.bg-card {
+  position: absolute;
+  bottom: 0;
+  left: 244px;
+}
+.bg_right {
+  position: absolute;
+  right: 52px;
+  bottom: -84px;
+}
+/* ============================second main end=========================== */
+/* ============================footer start=========================== */
+.footer-area {
+  padding: 30px;
+  background: #fbf7f6;
+}
+.footer-email {
+    display: flex;
+    padding-bottom: 20px;
+}
+.footer-icon {
+    margin-right: 12px;
+}
+
+.footer-phone {
+    display: flex;
+}
+
+.footer-p_icon {
+    margin-right: 12px;
+}
+
+ul.footer_liste-control li {
+    list-style: none;
+}
+
+.footer-nav {
+    /* display: flex; */
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer_liste-control {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.footer_liste-control i {
+    margin: 30px;
+}
+
+.footer-list li {
+    padding-bottom: 14px;
+}
+
+.footer__tit p {
+    line-height: 1.6rem;
+}
+.footer__tit h4 {
+  font-size: 18px;
+  color: black;
+}
+.footer_title {
+  background: bisque;
+  padding: 27px;
+} 
+.mail-phone a {
+  text-decoration: none;
+  color: #141212a1;
+}
+/* ============================footer end=========================== */
+/* ============================ Login page start =========================== */
+
+
+.login_area {
+  padding: 90px;
+}
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #ebb654b3;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.login_btn{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: orange;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: rgba(241, 173, 45, 0.836);
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: orange;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+/* ============================ Login page end =========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.manage_heading h4 {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.mange_he{
+  padding-top: 30px;
+  padding-left: 25px;
+}
+.main-manage {
+    border-radius: 15px;
+    margin-right: 90px;
+    border: 1px solid #00000014;
+    margin-bottom: 40px;
+}
+.mange_title_1 {
+   
+background: #e5f8fb;
+   
+/* margin: 0px 145px; */
+   
+padding: 20px;
+   
+/* margin-left: 25px; */
+   
+border-radius: 20px;
+   
+margin-bottom: 20px;
+   
+/* margin-right: 129px; */
+   
+margin: 14px 20px;
+}
+.mange_he h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.mange_te{
+  background-color: #ffebf4;
+}
+.mange_title_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.mange_title_1 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+.card_manage-control{
+  background-color: hsl(215.4deg 16.3% 46.9% / 5%);
+  margin: 14px 20px;
+  border-radius: 15px;
+}
+.card-body h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+button.manage-btn {
+    padding: 10px 40px;
+    background: orange;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 240px;
+}
