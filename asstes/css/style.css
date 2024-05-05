@@ -27,7 +27,6 @@ body {
 }
 
 .nav_icon-cart i {
-  /* padding-left: 35px; */
   font-size: 22px;
   font-weight: 600;
   color: black;
@@ -40,12 +39,6 @@ body {
 
 .addtocard {
   padding-left: 20px;
-}
-
-.dropedit {
-  /* color: black; */
-  background-color: #fff;
-  border-color: #fff;
 }
 
 /* ============================NavBar end=========================  */
@@ -113,6 +106,21 @@ body {
   top: 210px;
 }
 
+button.btn.btn-secondary i {
+    color: #fff;
+    font-size: 1rem;
+    height: 25px;
+    width: 25px;
+    background: #ff7b00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.dropdown>button { display: flex; align-items: center; justify-content: space-between;}.nav_icon-cart > i {
+    color: #ff7b00;
+}
 
 /* ============================main end========================= */
 
