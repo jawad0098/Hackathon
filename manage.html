@@ -47,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="manage_heading">
+                    <!-- <div class="manage_heading">
                         <h4>Manage</h4>
                     </div>
                     <div class="main-manage">
@@ -63,7 +63,7 @@
                             <p>Up to 50% OFF, Flat Discount and other <br> great offers</p>
                             <img src="./asstes/images/manage/manage-card-1.svg" alt="">
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="main-manage">
                         <div class="mange_he">
@@ -73,10 +73,10 @@
                         <div class="card mb-3 card_manage-control">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                   <div class="control-mange-card">
-                                    <img src="./asstes/images/manage/pizza-04FDaPt1.png" class="img-fluid rounded-start"
-                                    alt="...">
-                                   </div>
+                                    <div class="control-mange-card">
+                                        <img src="./asstes/images/manage/pizza-04FDaPt1.png"
+                                            class="img-fluid rounded-start" alt="...">
+                                    </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -96,12 +96,89 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="manage-ctn-btn">
-                        <a href="./post.html"><button class="manage-btn">Add Menu Items</button></a>
-                        
+                        <button class="manage-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Menu
+                            Items</button>
+                        <!-- Button trigger modal -->
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body d-flex">
+                                    <form class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="prductName"
+                                                        placeholder="Product Name">
+                                                    <label for="prductName">Product Name</label>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input type="number" class="form-control" id="sellingPrince"
+                                                        placeholder="Selling Price">
+                                                    <label for="sellingPrince">Selling Price</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <select class="form-select custom" id="productCategory" aria-label="Floating label select example">
+                                                        <option selected>Product Catagory</option>
+                                                        <option value="Italian">Italian</option>
+                                                        <option value="BBQ">BBQ</option>
+                                                        <option value="Mexican">Mexican</option>
+                                                        <option value="Chinies">Chinies</option>
+                                                        <option value="Pizza">Pizza</option>
+                                                        <option value="Burger">Burger</option>
+                                                        <option value="Tikka">Tikka</option>
+                                                        <option value="Fish">Fish</option>
+                                                        <option value="HotDogs">HotDogs</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-floating mb-3 mt-3">
+                                                    <input type="text" class="form-control" id="costPrice"
+                                                        placeholder="name@example.com">
+                                                    <label for="costPrice">Cost Price</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="form-floating mb-3">
+                                                    <input type="number" class="form-control" id="itemQuantity"
+                                                        placeholder="name@example.com">
+                                                    <label for="itemQuantity">Quantity</label>
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12">
+                                                 <div class="mb-3">
+                                                    <label for="formFile" class="form-label">Default file input example</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                  </div>
+                                                </select>
+                                              </div>
+                                             <div class="form-floating">
+                                                <textarea class="form-control" placeholder="Write more about Product" id="Discription" style="height: 100px"></textarea>
+                                                <label for="Discription">Discription</label>
+                                              </div>
+                                           
+                                              <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary"
+                                                      data-bs-dismiss="modal">Close</button>
+                                                  <button id="makeCategory" type="button" class="btn btn-primary">Post</button>
+                                              </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
     </div>
@@ -111,11 +188,8 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./asstes/js/app.js" type="module"></script>
 
 </body>
 
