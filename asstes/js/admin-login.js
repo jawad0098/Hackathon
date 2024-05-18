@@ -89,7 +89,7 @@ if (getLbtn) {
                   Toast.fire({
                     icon: "success",
                     title: "Login successfully!"
-                  });                location.href = './index.html'
+                  });                location.href = './manage.html'
             })
             .catch((error) => {
                 const errorCode = error.code;

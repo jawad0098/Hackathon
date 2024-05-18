@@ -44,7 +44,7 @@ function displayData(data) {
             <div class="coffe-detail ab-${index + 1}">
                 <h5>${item.productCategory}</h5>
                 <h5>$ ${item.sellingPrice}</h5>
-                <h5>Order Now</h5>
+                <button>Order now</button>
             </div>
            </div>
         `;

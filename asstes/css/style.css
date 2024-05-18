@@ -367,7 +367,10 @@ button:hover{
 /* ============================ Login page end =========================== */
 
 
-
+.dashbord-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 
 
 
@@ -455,7 +458,7 @@ button.manage-btn {
     border: none;
     color: #fff;
     border-radius: 4px;
-    margin-top: 240px;
+    /* margin-top: 240px; */
 }
 
 
